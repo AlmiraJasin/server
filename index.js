@@ -1,4 +1,4 @@
-import server from "./lib/server.js";
+import { server } from "./lib/server.js";
 
 const app = {};
 
