@@ -6,16 +6,16 @@ app.init = () => {
     // sukurti pradinius folder'ius
     // sukurti pradinius file'us
 
-    // prisijungti prie duomenu bazes
-    // paleisti serveri
-    server.init()
-    
-    // pasikartojantys procesai: 
-        // trinimas nenaudojamu failu
-        // zipinimas senos info
-        // atsinaujinti API info 
+    // prisijungti prie DB
+    // paleisti (musu) serveri
+    server.init();
+
+    // pasikartojantys procesai:
+    // - istrinti nenaudojamus failus
+    // - su'zip'inti sena informacija
+    // - atsinaujinti API informacija
 }
 
 app.init();
 
-export default app;
+export { app };
